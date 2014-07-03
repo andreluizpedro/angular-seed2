@@ -18,7 +18,7 @@ module.exports = function(config){
     browsers : ['Chrome'],
    
     reporters : ['progress', 'coverage'],
-    preprocessors : {'app/**/*.js' : ['coverage']},
+    preprocessors : {'app/js/**/*.js' : ['coverage']},
 
     plugins : [
             'karma-chrome-launcher',
